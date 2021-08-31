@@ -1,0 +1,167 @@
+.SubMgtUserContainer {
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+    height: 100%;
+
+    .SubMgtUserOne {
+        height: 30h;
+
+        .SubMgtUserImgSection {
+            display: flex;
+            height: 25vh;
+            width: 25vw;
+            display: flex;
+            position: relative;
+            border-radius: 5px;
+
+
+
+            .SubMgtFirmImage {
+                position: relative;
+                flex: 1;
+                top: 0;
+                left: 0;
+            }
+
+            .SubMgtProfileImageContainer {
+                position: absolute;
+                top: 60%;
+                left: 35%;
+                height: 18vh;
+                width: 9vw;
+                border-radius: 100%;
+
+                .SubMgtProfileImage {
+                    position: relative;
+                    flex: 1;
+                    top: 0;
+                    left: 0;
+                    height: 17vh;
+                    width: 8vw;
+                    border-radius: 100%;
+                    object-fit: cover;
+                    border:5px solid white;
+                    background-color: white;
+
+                }
+            }
+
+
+        }
+    }
+
+    .SubMgteditContainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-top: 10px;
+      margin-right: 20px;
+
+
+      .SubMgtedit{
+          border-radius: 100%;
+          padding: 8px;
+          border: none;
+          background-color: white;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+      }
+      
+    }
+
+
+
+    .SubMgtUserDetailSection {
+        padding: 10px;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        .SubMgtUserDetailSectionList{
+            display: flex;
+            flex-direction: row;
+            padding-top: 12px;
+
+            .SubMgtUserDetailTitleSection{
+                flex:1.3;
+                display: flex;
+                flex-direction: row;
+             
+                align-items: center;
+
+                .SubMgtUserDetailTitleIcon{
+                    background-color: #053E5E;
+                    padding: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    width: 32px;
+                    height:32px;
+                }
+
+                .SubMgtUserDetailTitleIconExpiry{
+                    background-color: #ff3333;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    width: 32px;
+                    height:32px;
+                }
+
+            
+                .SubMgtUserDetailTitle{
+                    font-size: 14px;
+                    font-weight: 700;
+                    margin-left: 15px;
+                }
+
+              
+
+            }
+
+            .SubMgtUserDetailValueSection{
+                flex:1;
+
+                .SubMgtUserDetailValue{
+                    font-size: 14px;
+                    font-weight: 500;
+                   
+                }
+            }
+        }
+
+       
+
+    }
+
+    .ButtonSection{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+
+        .ButtonApprove{
+            padding:10px;
+            padding-left: 14px;
+            padding-right:14px; 
+           border:none;
+            outline:none;
+            background-color: #DC1D13;
+            color:white;
+            border-radius: 5px;
+            font-size: 14px;
+            margin-right: 20px;
+            font-weight: 500;
+        }
+    }
+}

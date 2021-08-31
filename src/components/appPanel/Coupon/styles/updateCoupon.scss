@@ -1,0 +1,133 @@
+.CouponMgtUpdateFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+
+    .CouponMgtUpdateFormCouponType {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+
+        .CouponMgtUpdateFormCouponTypeTitleId {
+            border-radius: 5px;
+            // border:2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 10px;
+
+            label{
+                font-weight: 600;
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+
+    }
+
+    .CouponMgtUpdateFormCheckboxContainer {
+        background-color: #F0F0F0;
+        padding: 15px 20px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+
+    .CouponMgtUpdateFormBottomSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .CouponMgtUpdateFormRules {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            margin-top: 10px;
+
+            .CouponMgtUpdateFormRulesOne {
+                flex: 1;
+                display: flex;
+                justify-content: flex-end;
+
+                .CouponMgtUpdateFormRulesOneTitle {
+                    margin-right: 10px;
+                }
+            }
+
+            .CouponMgtUpdateFormRulesTwo {
+                flex: 2.6;
+            }
+
+            .CouponMgtUpdateFormRulesThree {
+                flex: 1;
+                width: 100%;
+            }
+
+            .CouponMgtUpdateFormRulesFour {
+                flex: 1;
+                width: 100%;
+            }
+        }
+
+
+        .CouponMgtUpdateFormStartDateContainer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .CouponMgtUpdateFormStartDateTitleWrapper {
+                margin-right: 0px;
+                flex: 0.7;
+            }
+
+            .CouponMgtUpdateFormStartDateChooseContainer {
+                flex: 3;
+            }
+        }
+
+        .CouponMgtUpdateFormEndDateContainer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 10px;
+
+            .CouponMgtUpdateFormEndDateTitleWrapper {
+                margin-right: 0px;
+                flex: 0.7;
+
+            }
+
+            .CouponMgtUpdateFormEndDateChooseContainer {
+                flex: 3;
+            }
+
+        }
+
+
+        .CouponMgtUpdateFormButtonContainer {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+
+            .CouponMgtUpdateFormButtonContainerOne {
+                /////////////////////@at-root
+                display: flex;
+            }
+
+            .CouponMgtUpdateFormButtonContainerTwo {
+                margin-left: 10px;
+            }
+        }
+    }
+
+}

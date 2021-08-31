@@ -1,0 +1,378 @@
+.ProductMgtdisplayContainerDetail {
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+    .ProductMgtfirstDetail {
+        display: flex;
+        flex-direction: row;
+
+        .ProductMgtimageContainerDetail {
+            flex: 1;
+            padding: 15px;
+            margin-left: 20px;
+
+            .ProductMgtimageWrapperDetail {
+                display: flex;
+                height: 250px;
+                width: 250px;
+                display: flex;
+                position: relative;
+                border-radius: 5px;
+                // object-fit:cover;
+
+                img {
+                    position: relative;
+                    flex: 1;
+                    top: 0;
+                    left: 0;
+                    object-fit: initial;
+                    border-radius: 5px;
+                }
+            }
+
+
+
+        }
+
+        .ProductMgtdetailDetail {
+            flex: 3;
+            padding-left: 40px;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .ProductMgtskuNameDetail {
+                font-weight: 800;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+
+
+            .ProductMgtratingDetail {
+         
+            }
+
+            .ProductMgtpriceContainerDetail {
+                display: flex;
+                padding: 5px;
+                margin-top: 10px;
+
+                .ProductMgtskuPriceTitleDetailWraper {
+                    flex: 1;
+
+
+
+
+                    .ProductMgtskuPriceTitleDetail {
+                        margin-right: 20px;
+
+                        display: flex;
+                        font-size: 18px;
+                        justify-content: flex-end;
+                        align-items: center;
+                        font-weight: 700;
+
+                    }
+                }
+
+
+                .ProductMgtskuPriceDetailWraper {
+
+                    flex: 4.5;
+
+
+
+                    .ProductMgtskuPriceDetail {
+
+
+                        font-size: 18px;
+                        font-weight: 400;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                    }
+                }
+
+
+            }
+
+            .ProductMgtDescriptionDetailDetail {
+                margin-top: 5px;
+                display: flex;
+                padding: 5px;
+
+                .ProductMgtdescriptionTitleDetailWrapperDetail {
+
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+
+
+
+                    .ProductMgtdescriptionTitleDetailDetail {
+
+                        display: flex;
+                        font-size: 18px;
+                        font-weight: 700;
+                        margin-right: 20px;
+                    }
+                }
+
+
+                .ProductMgtdescriptionvalueDetailWrapperDetail {
+
+                    flex: 4.5;
+
+                    .ProductMgtdescriptionvalueDetailDetail {
+
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: black;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                    }
+                }
+
+
+            }
+
+            .ProductMgtincentiveDetail {
+                display: flex;
+                padding: 5px;
+                margin-top: 5px;
+
+                .ProductMgtincentiveTitleDetailWrapper {
+
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+
+
+                    .ProductMgtincentiveTitleDetail {
+
+                        display: flex;
+                        font-size: 18px;
+                        font-weight: 700;
+                        margin-right: 20px;
+                    }
+                }
+
+
+                .ProductMgtincentiveValueDetailWrapper {
+
+                    flex: 4.5;
+
+
+                    .ProductMgtincentiveValueDetail {
+
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: black;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                    }
+                }
+
+
+            }
+
+        }
+
+        .ProductMgteditContainerDetail {
+            padding: 10px;
+
+            .ProductMgteditDetail {
+                -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                padding: 10px;
+                border-radius: 50%;
+                cursor: pointer;
+                outline: none;
+                background-color: white;
+                border: none
+            }
+        }
+    }
+
+    .ProductMgtsecondDetail {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .ProductMgtpopularContainerDetail {
+            display: flex;
+            flex-direction: row;
+            padding-left: 20px;
+            padding-right: 30px;
+
+            .borderPopularDetail {
+                border: 3px solid #DC1D13;
+            }
+
+            .borderNotPopularDetail {
+                border: 3px solid #716F6F;
+            }
+
+            .ProductMgtPopularOneDetail {
+                flex: 1;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 10px;
+                margin-right: 20px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 15px;
+                border-radius: 10px;
+                border: 3px solid #DC1D13;
+
+
+                label {
+                    font-weight: 600;
+                    font-size: 17px;
+                    color: #DC1D13;
+
+                }
+            }
+
+            .ProductMgtNotPopularTwoDetail {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 10px;
+                margin-right: 20px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-top: 15px;
+                border-radius: 10px;
+                border: 3px solid #716F6F;
+
+
+                label {
+                    font-weight: 600;
+                    font-size: 17px;
+                    color: #716F6F;
+                }
+            }
+        }
+
+        .ProductMgtbottomContainerDetail {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            margin-top: 5px;
+
+            .ProductMgtpropDetailsDetail {
+                flex: 1;
+                padding: 10px;
+
+                .ProductMgtpropDetailsListDetail {
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 50px;
+
+                    .ProductMgtpropDetailsTitleDetailWrapper {
+                       
+                        flex:1;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .ProductMgtpropDetailsTitleDetail {
+                            font-weight: 700;
+                            font-size: 18px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding: 5px;
+                        }
+                    }
+
+                    .ProductMgtpropDetailsValueDetailWrapper {
+                    
+                        flex:2;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .ProductMgtpropDetailsValueDetail {
+                            font-size: 18px;
+                            font-weight: 500;
+                            display: flex;
+                            align-items: center;
+                        
+                            margin-left: 10px;
+                        }
+                    }
+
+                }
+
+
+            }
+
+            .ProductMgtpriceDetailsDetail {
+                flex: 1;
+                padding: 10px;
+
+                .ProductMgtpriceDetailsListDetail {
+                    display: flex;
+                    flex-direction: row;
+
+                    .ProductMgtpriceDetailsTitleDetailWrapper{
+                        flex:1;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .ProductMgtpriceDetailsTitleDetail {
+                        font-weight: 700;
+                        font-size: 18px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 5px;
+                    }
+                    }
+
+                    .ProductMgtpriceDetailsValueDetailWrapper{
+                        
+                        flex:2;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                      .ProductMgtpriceDetailsValueDetail {
+                        font-size: 18px;
+                        font-weight: 500;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        margin-left: 10px;
+                    }   
+                    }
+
+                   
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.ProductWiseRatesGraphSection{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:10px;
+
+    .ProductWiseRatesWeekGraphgraphWrapper{
+        background-color: #F0F0F0; 
+            padding:15px;
+    
+    
+            .ProductWiseRatesWeekGraphgraphTitle{
+                font-weight: 700;
+                margin-left: 20px;
+            }
+    
+                  .ProductWiseRatesWeekrGraphgraphContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+              
+               
+    
+    
+                .ProductWiseRatesWeekGraphGraph{
+                    background-color: white;
+                }
+            }
+            
+    
+         
+    }
+
+
+    .ProductDailyRatesDailyGraphgraphWrapper{
+        background-color: #F0F0F0; 
+            padding:15px;
+    margin-top: 15px;
+    
+            .ProductWiseRatesDailyGraphgraphTitle{
+                font-weight: 700;
+                margin-left: 20px;
+            }
+    
+                  .ProductDailyRatesWDailyGraphgraphContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+               
+              
+               
+    
+    
+                .ProductWiseRatesDailyGraph{
+                    background-color: white;
+                }
+            }
+            
+    
+         
+    }
+}

@@ -1,0 +1,64 @@
+.CompanyWiseRatesGraphSection{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:10px;
+
+    .CompanyWiseRatesWeekGraphgraphWrapper{
+        background-color: #F0F0F0; 
+            padding:15px;
+    
+    
+            .CompanyWiseRatesWeekGraphgraphTitle{
+                font-weight: 700;
+                margin-left: 20px;
+            }
+    
+                  .CompanyWiseRatesWeekrGraphgraphContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+              
+               
+    
+    
+                .CompanyWiseRatesWeekGraphGraph{
+                    background-color: white;
+                }
+            }
+            
+    
+         
+    }
+
+
+    .CompanyDailyRatesDailyGraphgraphWrapper{
+        background-color: #F0F0F0; 
+            padding:15px;
+    margin-top: 15px;
+    
+            .CompanyWiseRatesDailyGraphgraphTitle{
+                font-weight: 700;
+                margin-left: 20px;
+            }
+    
+                  .CompanyDailyRatesWDailyGraphgraphContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+               
+              
+               
+    
+    
+                .CompanyWiseRatesDailyGraph{
+                    background-color: white;
+                }
+            }
+            
+    
+         
+    }
+}

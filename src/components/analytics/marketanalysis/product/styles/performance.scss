@@ -1,0 +1,15 @@
+.performanceWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+
+    .high{
+        flex:1;
+        padding-right: 20px;
+
+    }
+
+    .low{
+        flex:1;
+    }
+}

@@ -1,0 +1,430 @@
+.VitaranPartnerAgentMgtUpdateFormContainer {
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+    .VitaranPartnerAgentMgtUpdateFormContainerOne {
+        flex: 2.8;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneTitleContainer {
+            padding: 0px 15px;
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneTitle {
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+
+
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneNameContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneNameWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneNameFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneNameWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneNameSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+
+        
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneCityContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneCityWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneCityFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneCityWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneCitySecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+
+
+        
+        .VitaranPartnerAgentMgtUpdateFormContainerOneCountryContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneCountryWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneCountryFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneCountryWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneCountrySecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+
+        
+        .VitaranPartnerAgentMgtUpdateFormContainerOneEducationContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneEducationWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneEducationFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneEducationWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneEducationSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneMobileContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneMobileWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+
+                label {
+                 
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+            }
+
+            .VitaranPartnerAgentMgtUpdateFormContainerOneZoneWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                padding: 8px 15px;
+                align-items: flex-end;
+
+                .VitaranPartnerAgentMgtUpdateFormContainerOneZoneSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+        }
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneMailContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneFirmContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneUpdateressContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .VitaranPartnerAgentMgtUpdateFormContainerOneButtonContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 15px;
+            margin-top: 10px;
+            gap: 10px;
+        }
+    }
+
+    .VitaranPartnerAgentMgtUpdateFormContainerTwo {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 20px;
+
+        #VitaranPartnerAgentProfUpdateImg{
+            display: none;
+        }
+
+        
+        .VitaranPartnerAgentUpdateFormProfImageContainer{
+            padding:10px;
+
+            .VitaranPartnerAgentUpdateFormProfImage{
+                border: 2px solid #DC1D13;
+                padding: 8px 25px;
+                border-radius: 5px;
+                font-weight: 600;
+                color:#DC1D13;
+                cursor: pointer;
+
+                &:hover{
+                    border: 2px solid #DC1D13;
+                    padding: 8px 25px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    color:white;
+                    cursor: pointer;
+                    background-color: #DC1D13;
+                }
+            }
+        }
+
+        .VitaranPartnerAgentMgtUpdateFormContainerTwoImageContainer{
+            
+            width: 180px;
+            height:180px;
+
+            img{
+                width: 100%;
+                height:100%;
+                object-fit: contain;
+            }
+        }
+
+        .VitaranPartnerAgentMgtUpdateFormContainerTwoButtonContainer{
+            margin-top: 10px;
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+
+
+        
+        .VitaranPartnerAgentMgtUpdateFormContainerTwoImageContainerTwo{
+            margin-top: 15px;
+            width: 280px;
+            height:150px;
+
+            img{
+                width: 100%;
+                height:100%;
+                object-fit: contain;
+            }
+        }
+
+        .VitaranPartnerAgentMgtUpdateFormContainerTwoButtonContainerTwo{
+           
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+    }
+
+
+
+}

@@ -1,0 +1,600 @@
+.VpDealsContainer {
+    padding: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .VpDealsContainerTop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 15px;
+
+        .VpDealsContainerTopOne {
+            flex: 1.2;
+        }
+
+        .VpDealsContainerTopTwo {
+            flex: 2;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+
+    .VpDealsContainerBottom {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 20px;
+
+        .VpDealsContainerBottomOne {
+            flex: 1;
+            background-color: #F0F0F0;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+
+            .VpDealsContainerBottomOneStatusContainer {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 0px;
+
+                .VpDealsContainerBottomOneStatusTitle {
+                    font-weight: 600;
+                }
+
+                .VpDealsContainerBottomOneStatusValue {
+                    color: #053E5E;
+                    font-weight: 600;
+                }
+
+                .VpDealsContainerBottomOneStatusValueCompleted{
+                    color: #DC1D13;
+                    font-weight: 600;
+                }
+            }
+
+            .VpDealsContainerBottomOneDateContainer {
+                padding: 15px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .VpDealsContainerBottomOneDateContainerOne {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpDealsContainerBottomOneDateContainerOneTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpDealsContainerBottomOneDateContainerOneValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+
+                .VpDealsContainerBottomOneDateContainerTwo {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpDealsContainerBottomOneDateContainerTwoTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpDealsContainerBottomOneDateContainerTwoValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .VpDealsContainerBottomOneReasonContainerTwo {
+                padding: 10px 10px;
+            }
+
+            .VpDealsContainerBottomOneButtonContainer {
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+
+        
+        .VpDealsContainerBottomOneCompleted {
+            flex: 1;
+            background-color: #F0F0F0;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            min-height: 200px;
+            max-height: 200px;
+
+            .VpDealsContainerBottomOneStatusContainer {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 0px;
+
+                .VpDealsContainerBottomOneStatusTitle {
+                    font-weight: 600;
+                }
+
+                .VpDealsContainerBottomOneStatusValue {
+                    color: #053E5E;
+                    font-weight: 600;
+                }
+
+                .VpDealsContainerBottomOneStatusValueCompleted{
+                    color: #DC1D13;
+                    font-weight: 600;
+                }
+            }
+
+            .VpDealsContainerBottomOneDateContainer {
+                padding: 15px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .VpDealsContainerBottomOneDateContainerOne {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpDealsContainerBottomOneDateContainerOneTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpDealsContainerBottomOneDateContainerOneValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+
+                .VpDealsContainerBottomOneDateContainerTwo {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpDealsContainerBottomOneDateContainerTwoTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpDealsContainerBottomOneDateContainerTwoValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .VpDealsContainerBottomOneReasonContainerTwo {
+                padding: 10px 10px;
+            }
+
+            .VpDealsContainerBottomOneButtonContainer {
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .VpDealsContainerBottomOneCancelled {
+            flex: 1;
+            background-color: #F0F0F0;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            min-height: 250px;
+            max-height: 250px;
+
+            .VpDealsContainerBottomOneReasonContainerTwoCancelled{
+                // margin-top: -10px;
+                padding: 5px 10px;
+                margin-bottom: 10px;
+            }
+
+            .VpDealsContainerBottomOneStatusContainer {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 0px;
+
+                .VpDealsContainerBottomOneStatusTitle {
+                    font-weight: 600;
+                }
+
+                .VpDealsContainerBottomOneStatusValue {
+                    color: #053E5E;
+                    font-weight: 600;
+                }
+
+                .VpDealsContainerBottomOneStatusValueCancelled{
+                    color: #716F6F;
+                    font-weight: 600;
+                }
+            }
+
+            .VpDealsContainerBottomOneDateContainer {
+                padding: 15px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .VpDealsContainerBottomOneDateContainerOne {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpDealsContainerBottomOneDateContainerOneTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpDealsContainerBottomOneDateContainerOneValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+
+                .VpDealsContainerBottomOneDateContainerTwo {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpDealsContainerBottomOneDateContainerTwoTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpDealsContainerBottomOneDateContainerTwoValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .VpDealsContainerBottomOneReasonContainerTwoCancelled {
+                padding: -10px 10px;
+            }
+
+            .VpDealsContainerBottomOneButtonContainer {
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .VpDealsContainerBottomTwo {
+            flex: 2;
+            background-color: #F0F0F0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border-radius: 5px;
+
+            .VpDealsContainerBottomTwoTitleContainer {
+                width: 100%;
+
+                .VpDealsContainerBottomTwoTitle {
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+
+            .VpDealsContainerBottomTwoDetailsContainer {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+
+                .VpDealsContainerBottomTwoDetailsListContainer {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+                    padding: 3px 0px;
+
+                    .VpDealsContainerBottomTwoDetailsListTitleContainer {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        .VpDealsContainerBottomTwoDetailsListTitle {
+                            font-weight: 600;
+                            font-size: 14px;
+
+
+                        }
+
+                    }
+
+                    .VpDealsContainerBottomTwoDetailsListValueContainer {
+                        flex: 5;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        .VpDealsContainerBottomTwoDetailsListValue {
+                            font-size: 14px;
+
+                        }
+
+                    }
+                }
+            }
+
+            .VpDealsContainerBottomTwoSkuDetailsContainer {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                padding: 10px;
+                gap: 10px;
+
+                .VpDealsContainerBottomTwoSkuImageContainer {
+                    flex: 1;
+                    overflow: hidden;
+                    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    border-radius: 5px;
+                   
+                    height: 90px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit:contain;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpDealsContainerBottomTwoSkuIdContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpDealsContainerBottomTwoSkuIdContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpDealsContainerBottomTwoSkuIdContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpDealsContainerBottomTwoSkuNameContainer {
+                    flex: 2;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+
+                    
+                    .VpDealsContainerBottomTwoSkuNameContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpDealsContainerBottomTwoSkuNameContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpDealsContainerBottomTwoSkuQuantityContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpDealsContainerBottomTwoSkuQuantityContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpDealsContainerBottomTwoSkuQuantityContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpDealsContainerBottomTwoSkuMrpContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpDealsContainerBottomTwoSkuMrpContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpDealsContainerBottomTwoSkuMrpContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpDealsContainerBottomTwoSkuTotalPriceContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpDealsContainerBottomTwoSkuTotalPriceContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpDealsContainerBottomTwoSkuTotalPriceContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            .VpDealsContainerLastContainer{
+                padding:5px 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .VpDealsContainerLastTitleContainer{
+                    flex:1;
+
+                    .VpDealsContainerLastTitle{
+                      font-weight: 600;
+                      font-size: 14px;
+                    }
+                }
+
+                .VpDealsContainerLastValueContainer{
+                    flex:7;
+
+                    .VpDealsContainerLastValue{
+                        font-weight: 600;
+                      font-size: 14px;
+                      color:#053E5E;
+                    }
+
+                }
+            }
+        }
+    }
+}

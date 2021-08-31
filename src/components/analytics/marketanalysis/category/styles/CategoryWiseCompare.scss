@@ -1,0 +1,148 @@
+.CompareContainer {
+    display: flex;
+    flex-direction: row;
+    max-height: 35vh;
+    // min-height: 32vh;
+    // background-color: red;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    .CategoryWiseNameSection {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        border:2px solid black;
+        border-radius: 5px;
+        padding: 2px;
+
+        .CategoryWiseHeading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+
+        .CategoryWiseTitleSection {
+            display: flex;
+            flex-direction: column;
+            margin-top: 3px;
+
+            .CategoryWiseTitle {
+                margin-top: 5px;
+                background-color: gray;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 0px;
+                        padding-bottom: 5px;
+                        padding-top: 5px;
+                        font-weight: 600;
+                        font-size: 12px;
+                        border-radius: 4px;
+            }
+        }
+    }
+
+    .CategoryWiseWeekSection {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        border:2px solid black;
+        border-radius: 5px;
+        margin-left: 10px;
+
+        .CategoryWiseWeekSectionTop {
+            display: flex;
+            flex-direction: column;
+
+            .CategoryWiseWeekSectionTopTitle {
+                font-weight: 700;
+                font-size: 12px;
+                margin-top: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .CategoryWiseWeekSectionTopSub {
+                display: flex;
+                flex-direction: row;
+
+                .CategoryWiseWeekSectionTopSubTitleHigh {
+                    flex: 1;
+                    font-weight: 700;
+                font-size: 12px;
+                margin-top: -5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color:blue;
+                }
+
+                .CategoryWiseWeekSectionTopSubTitleLow{
+                    flex: 1;
+                    font-weight: 700;
+                font-size: 12px;
+                margin-top: -5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color:red;
+                }
+            }
+        }
+
+        .CategoryWiseWeekSectionDown {
+            display: flex;
+            flex-direction: column;
+
+            .CategoryWiseWeekSectionDownSub {
+                display: flex;
+                flex-direction: row;
+                padding: 2px;
+
+                .CategoryWiseWeekSectionDownValueHigh{
+                    color:Blue;
+                   
+                    background-color: gray;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-bottom: 0px;
+                            padding-bottom: 5px;
+                            padding-top: 5px;
+                            font-weight: 600;
+                            font-size: 12px;
+                            margin-top: 0px;
+                            border-radius: 4px;
+                }
+
+                .CategoryWiseWeekSectionDownValueLow{
+                    color:red;
+                    background-color: gray;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    font-weight: 600;
+                    font-size: 12px;
+                    margin-top: 0px;
+                    margin-left: 2px;
+                    border-radius: 4px;
+                }
+            }
+
+
+        }
+    }
+}

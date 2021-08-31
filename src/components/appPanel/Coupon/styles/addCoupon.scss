@@ -1,0 +1,111 @@
+.CouponMgtAddFormContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:10px;
+
+    .CouponMgtAddFormCouponType {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .CouponMgtAddFormCheckboxContainer {
+        background-color: #F0F0F0;
+        padding: 15px 20px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+
+    .CouponMgtAddFormBottomSection {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .CouponMgtAddFormRules {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            margin-top: 10px;
+
+            .CouponMgtAddFormRulesOne {
+                flex:1;
+                display: flex;
+                justify-content: flex-end;
+
+                .CouponMgtAddFormRulesOneTitle {
+                    margin-right: 10px;
+                }
+            }
+
+            .CouponMgtAddFormRulesTwo {
+                flex: 2.6;
+            }
+
+            .CouponMgtAddFormRulesThree{
+                flex:1;
+                width: 100%;
+            }
+
+            .CouponMgtAddFormRulesFour{
+                flex:1;
+                width: 100%;
+            }
+        }
+
+
+        .CouponMgtAddFormStartDateContainer{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .CouponMgtAddFormStartDateTitleWrapper{
+                margin-right: 0px;
+                flex:0.7;
+            }
+
+            .CouponMgtAddFormStartDateChooseContainer{
+                flex:3;
+            }
+        }
+
+         .CouponMgtAddFormEndDateContainer{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 10px;
+
+            .CouponMgtAddFormEndDateTitleWrapper{
+                margin-right: 0px;
+                flex:0.7;
+              
+            }
+            .CouponMgtAddFormEndDateChooseContainer{
+                flex:3;
+            }
+           
+        }
+
+
+        .CouponMgtAddFormButtonContainer{
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+
+            .CouponMgtAddFormButtonContainerOne{
+/////////////////////@at-root
+                display:flex;
+            }
+
+            .CouponMgtAddFormButtonContainerTwo{
+             margin-left: 10px;
+            }
+        }
+    }
+
+}

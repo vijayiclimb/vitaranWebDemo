@@ -1,0 +1,159 @@
+.AdminPartnerSummaryCarouselContainer{
+    margin-top: 5px;
+    background-color: white;
+    width: 100%;
+    padding:20px 20px;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    border-radius: 5px;
+   
+
+
+    .AdminPartnerSummaryCarouselCardContainer{
+      
+        display: flex;
+        position: relative;
+        border-radius: 3px;
+        width: 95%;
+        height: 26vh;
+        padding: 10px;
+        cursor: pointer;
+        overflow: hidden;
+        
+     
+    
+       
+
+        .AdminPartnerSummaryCarouselCardWrapper{
+            display: flex;  
+            flex-direction: column;
+            width: 100%;
+
+
+            .AdminPartnerSummaryCarouselImageContainer{
+                flex:1;
+                display: flex;
+               
+                justify-content: center;
+                align-items: center ;
+            }
+
+
+
+
+            .AdminPartnerSummaryCarouselTextContainer{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center ;
+
+                .AdminPartnerSummaryCarouselTextOne{
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+
+                .AdminPartnerSummaryCarouselTextTwo{
+                    color: black;
+                    margin-top: -5px;
+                }
+
+                .AdminPartnerSummaryCarouselTextThree{
+                    font-weight: 600;
+                    margin-top: -5px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+
+
+    .AdminPartnerSummaryCarouselCardContainerAdd{
+      
+        display: flex;
+        position: relative;
+        border-radius: 3px;
+        width: 93%;
+        height: 25vh;
+        cursor: pointer;
+        overflow: hidden;
+        border: 2px solid gray; 
+        min-width: 200px;
+        max-width: 200px;
+      
+        
+
+        .AdminPartnerSummaryCarouselCardWrapperAdd{
+            display: flex;  
+            flex-direction: column;
+            width: 100%;
+
+
+            .AdminPartnerSummaryCarouselImageContainerAdd{
+                flex:1;
+                display: flex;
+               
+                justify-content: center;
+                align-items: center ;
+
+
+
+                .AdminPartnerSummaryCarouselImageContainerAddIcon{
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 90px;
+                    height:90px;
+                    overflow: hidden;
+                    border-radius: 100%;
+                    background-color: #FCFBFB;
+                }
+            }
+
+
+
+
+            .AdminPartnerSummaryCarouselTextContainerAdd{
+                flex:0.2;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center ;
+
+                .AdminPartnerSummaryCarouselTextOneAdd{
+                    font-weight: 600;
+                    margin-top: -20px;
+                }
+
+              
+            }
+        }
+    }
+
+    .AdminPartnerSummaryCarouselContainerButton{
+        margin-top: 10px;
+        padding:5px 5px;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+
+
+.AdminPartnerSummaryCarouselCardBorder{
+    border: 4px solid #dc1d13cb;
+}
+
+
+.AdminPartnerSummaryCarouselCardOneBorder{
+    border: 2px solid gray;
+}
+
+
+

@@ -1,0 +1,22 @@
+.ImageContainer{
+
+
+    .CardImage{
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+        
+        position: relative;
+        border-radius: 10px;
+        width: 85%;
+        height: 22vh;
+        cursor: pointer;
+        overflow: hidden;
+        
+        img{
+            flex-basis: 100%;
+        
+            cursor: pointer;
+        }
+        }
+}

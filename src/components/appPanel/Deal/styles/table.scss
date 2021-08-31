@@ -1,0 +1,27 @@
+.tableContainer {
+    padding: 0px 20px 0px 20px;
+    border-radius:5px;
+
+
+    .rowHead{
+        font-size: 14px;
+    }
+
+    .rowData{
+        font-size: 14px;
+    }
+
+
+    .button {
+        border: 2px solid red;
+        padding: 5px 10px 5px 10px;
+        color: red;
+        background-color: white;
+        border-radius: 0.35rem;
+
+        &:hover {
+            color: white;
+            background-color: red;
+        }
+    }
+}

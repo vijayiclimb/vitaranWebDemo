@@ -1,0 +1,11 @@
+export const GETSUB = 'GETSUB';
+export const USERLIST= 'USERLIST';
+export const USERDETAILS="USERDETAILS";
+export const APPROVESUCCESS = "APPROVESUCCESS";
+export const APPROVEFAILURE = "APPROVEFAILURE";
+
+
+export const APPROVESTATE="APPROVESTATE";
+export const SUBMGTPAGELOADING="PAGELOADING";
+
+export const SUBMGTPAGEERROR="PageError"

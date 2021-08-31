@@ -1,0 +1,22 @@
+.couponContainer{
+    box-sizing: border-box;
+    margin:0;
+    padding:10px;
+    width:100%;
+    .MuiTab-textColorPrimary, .MuiInputLabel-root{
+      color: #000 !important;
+      font-family: 'proxima-nova', sans-serif;
+    }
+
+
+    
+  .MuiInputBase-input{
+    color: #000 !important;
+    font-size: 14px;
+  }
+
+    .MuiInputLabel-root{
+      color:gray !important;
+    }
+   
+}

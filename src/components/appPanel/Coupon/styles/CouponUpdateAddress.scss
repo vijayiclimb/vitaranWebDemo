@@ -1,0 +1,210 @@
+.CouponUpdateAddressContainer {
+    padding: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .CouponUpdateAddressZoneContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        .CouponUpdateAddressZoneWrapper {
+            display: flex;
+            flex-direction: row;
+
+            .CouponUpdateAddressZoneTitle {
+                font-weight: 500;
+                margin-right: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .CouponUpdateAddressZoneValue {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid #716F6F;
+                padding-left: 15px;
+                border-radius: 5px;
+                padding-right: 15px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+
+
+    .CouponUpdateAddressButtonContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .CouponUpdateAddressSectionContainer {
+        display: flex;
+        flex-direction: column;
+
+        .CouponUpdateAddressSectionTitleContainer {
+            margin-left: 35px;
+            margin-bottom: -10px;
+
+            .CouponUpdateAddressSectionTitle {
+                font-weight: 600;
+            }
+        }
+
+
+        .CouponUpdateAddressSectionAddressContainer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .CouponUpdateAddressSectionAddressWrapper {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-top: 15px;
+
+                .CouponUpdateAddressSectionAddressNoAddress{
+                    margin-left: 35px;
+                }
+
+
+                .CouponUpdateAddressSectionAddressTiteWrapper {
+                    border: 1px solid black;
+                    padding: 5px;
+                    margin-left: 35px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    border-radius: 5px;
+
+
+                    .CouponUpdateAddressSectionAddressTiteOne {
+                        background-color: #c4c4c4;
+                        padding-bottom: 5px;
+                        padding-left: 8px;
+                        padding-right: 8px;
+                        padding-top: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        border-radius: 5px;
+                    }
+
+                    .CouponUpdateAddressSectionAddressTiteTwo {
+                        max-width: 420px;
+                        min-width: 420px;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        margin-left: 10px;
+
+                    }
+
+                    .CouponUpdateAddressSectionAddressTiteThreeExx{
+                        opacity: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 15px;
+                    }
+
+                    .CouponUpdateAddressSectionAddressTiteThree {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 15px;
+                        cursor: pointer;
+                    }
+                }
+
+                .CouponUpdateAddressSectionAddressTiteIcon {
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .CouponUpdateAddressSectionContainerTwo {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+
+            .CouponUpdateAddressSectionTitleContainerTwo {
+                margin-left: 35px;
+                
+    
+                .CouponUpdateAddressSectionTitleTwo {
+                    font-weight: 600;
+                }
+
+            }
+
+            .CouponUpdateAddressSectionAddressContainerTwoSec {
+                display: flex;
+                flex-direction: row;
+                 width: 100%;
+
+                .CouponUpdateAddressSectionAddressTiteWrapperTwo {
+                    border: 1px solid black;
+                    padding: 5px;
+                    margin-left: 35px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    border-radius: 5px;
+
+
+                    .CouponUpdateAddressSectionAddressTiteOneTwo {
+                        background-color: #c4c4c4;
+                        padding-bottom: 5px;
+                        padding-left: 8px;
+                        padding-right: 8px;
+                        padding-top: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 100%;
+                        border-radius: 5px;
+                    }
+
+                    .CouponUpdateAddressSectionAddressTiteTwoTwo {
+                        max-width: 460px;
+                        min-width: 460px;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        margin-left: 10px;
+
+                    }
+
+                    .CouponUpdateAddressSectionAddressTiteThreeTwo {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+        }
+    }
+}

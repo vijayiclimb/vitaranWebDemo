@@ -1,0 +1,16 @@
+.performanceWrapperCategory{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+
+    .highCategory{
+        flex:1;
+      margin-left: 0;
+
+    }
+
+    .lowCategory{
+        flex:1;
+        margin-left: 10px;
+    }
+}

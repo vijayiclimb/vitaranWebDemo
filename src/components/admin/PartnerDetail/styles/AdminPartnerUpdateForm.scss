@@ -1,0 +1,266 @@
+.AdminPartnerUpdateFormContainer {
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+    .AdminPartnerUpdateFormContainerOne {
+        flex: 2.8;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .AdminPartnerUpdateFormContainerOneTitleContainer {
+            padding: 0px 15px;
+
+            .AdminPartnerUpdateFormContainerOneTitle {
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+
+
+
+        .AdminPartnerUpdateFormContainerOneNameContainer {
+            display: flex;
+            flex-direction: row;
+
+            .AdminPartnerUpdateFormContainerOneNameWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .AdminPartnerUpdateFormContainerOneNameFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .AdminPartnerUpdateFormContainerOneNameWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .AdminPartnerUpdateFormContainerOneNameSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+
+        .AdminPartnerUpdateFormContainerOneMobileContainer {
+            display: flex;
+            flex-direction: row;
+
+            .AdminPartnerUpdateFormContainerOneMobileWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+
+                label {
+                 
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+            }
+
+            .AdminPartnerUpdateFormContainerOneZoneWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                padding: 8px 15px;
+                align-items: flex-end;
+
+                .AdminPartnerUpdateFormContainerOneZoneSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+        }
+
+        .AdminPartnerUpdateFormContainerOneMailContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .AdminPartnerUpdateFormContainerOneFirmContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .AdminPartnerUpdateFormContainerOneUpdateressContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .AdminPartnerUpdateFormContainerOneButtonContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 15px;
+            margin-top: 10px;
+            gap: 10px;
+        }
+    }
+
+    .AdminPartnerUpdateFormContainerTwo {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 20px;
+
+        
+        #AdminPartnerProfUpdateImg{
+            display: none;
+        }
+
+        #AdminPartnerFirmUpdateImg{
+            display: none;
+        }
+
+        
+        .AdminPartnerUpdateFormProfImageContainer{
+            padding:10px;
+
+            .AdminPartnerUpdateFormProfImage{
+                border: 2px solid #DC1D13;
+                padding: 8px 25px;
+                border-radius: 5px;
+                font-weight: 600;
+                color:#DC1D13;
+                cursor: pointer;
+
+                &:hover{
+                    border: 2px solid #DC1D13;
+                    padding: 8px 25px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    color:white;
+                    cursor: pointer;
+                    background-color: #DC1D13;
+                }
+            }
+        }
+
+        .AdminPartnerUpdateFormContainerTwoImageContainer{
+            
+            width: 180px;
+            height:180px;
+
+            img{
+                width: 100%;
+                height:100%;
+                object-fit: contain;
+            }
+        }
+
+        .AdminPartnerUpdateFormContainerTwoButtonContainer{
+            margin-top: 10px;
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+
+
+        
+        .AdminPartnerUpdateFormContainerTwoImageContainerTwo{
+            margin-top: 15px;
+            width: 300px;
+            height:180px;
+            border: 2px solid #F0F0F0;
+
+            img{
+                width: 100%;
+                height:100%;
+                object-fit: fill;
+            }
+        }
+
+        .AdminPartnerUpdateFormContainerTwoButtonContainerTwo{
+           
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+    }
+
+
+
+}

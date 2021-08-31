@@ -1,0 +1,40 @@
+
+
+.MuiTab-textColorPrimary, .MuiInputLabel-root{
+  color: #fff !important;
+ 
+}
+  
+  /* .MuiInput-underline:before{
+    border-bottom:2px solid #fff !important;
+  } */
+  
+  .MuiAutocomplete-popupIndicator{
+    color: #fff !important;
+  }
+  
+  .makeStyles-bell-40 {
+    color: black !important;
+  }
+  
+  .MuiAutocomplete-input{
+    color: white;
+  }
+
+  .MuiInputBase-input{
+    color: #fff !important;
+  }
+  
+  .MuiAutocomplete-option{
+    color: #000 !important;
+  }
+
+
+ 
+  .MuiInput-underline:before {
+    border-bottom-color: 2px solid white !important;
+}
+
+.MuiInput-underline::after {
+  border-bottom-color: 2px solid white !important;
+}

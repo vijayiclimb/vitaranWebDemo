@@ -1,0 +1,43 @@
+.SubMgtDetailContainer{
+    background-color: white;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+
+    .SubMgtDetailOne{
+        flex:2;
+
+        .SubMgtDetailOneSearch{
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+
+        .SubMgtDetailOneCheckbox{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 5px;
+
+            .SubMgtDetailCheckItem{
+              margin-left: 10px;
+
+                .SubMgtDetailCheckItemTitle{
+                    font-size: 16px;
+                    font-weight: 600;
+                   
+                }
+            }
+        }
+    }
+
+    .SubMgtDetailTwo{
+        height: 100%;
+        flex:1;
+    }
+}

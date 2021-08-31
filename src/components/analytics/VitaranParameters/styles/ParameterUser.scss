@@ -1,0 +1,205 @@
+.UserContainer {
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    flex-wrap: wrap;
+
+    .FirmContainer {
+        display: flex;
+        height: 10vw;
+        position: relative;
+
+        .Firm {
+            flex-basis: 100%;
+        }
+
+        .ProfileContainer {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            padding: 10px;
+            position: absolute;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: translate(140px, 130px);
+
+            .Profile {
+                height: 90px;
+                width: 90px;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .ParameterDetailContainer {
+        margin-top: 60px;
+        box-shadow: 0;
+        padding: 10px;
+
+        .DetailList {
+
+            .Details {
+                display: flex;
+                align-items: center;
+
+                .DetailsLabel {
+                    display: flex;
+
+                    flex: 1;
+                    align-items: center;
+
+                    .icon {
+                        padding: 10px;
+                    }
+
+                    .DetailsLabelTitle {
+                        font-weight: 700;
+                        margin-top: 5px;
+                        font-size: 14px;
+                    }
+                }
+
+                .DetailsLabelValue {
+                    flex: 1.2;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+
+    .ParameterWeekContainer {
+        background-color: #f2f2f2;
+        padding: 10px;
+        margin-top: 10px;
+
+        .ParameterWeekOne {
+
+            .ParameterWeekTitle {
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .ParameterWeekCard {
+                display: flex;
+
+                .ParameterWeekOnecard {
+                    margin-left: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    border: 2px solid #716F6F;
+                    padding: 0;
+                    align-items: center;
+                    border-radius: 5px;
+
+                    .ParameterWeekOneTitle {
+                        padding: 10px;
+                        padding-bottom: 5px;
+                        font-size: 12px;
+                    }
+
+                    .ParameterWeekOneValue {
+                        background-color: #053E5E;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    color: white;
+                    font-weight: 600;
+                    }
+
+                    .ParameterWeekOneTitl {
+                        padding: 10px;
+                        padding-bottom: 5px;
+                        font-size: 12px;
+                    }
+
+                    .ParameterWeekOneValu{
+                        background-color: gray;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 0px;
+                        padding-bottom: 5px;
+                        padding-top: 5px;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+        }
+
+        .ParameterWeekTwo {
+            margin-top: 10px;
+
+            .ParameterWeekTwoTitle {
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .ParameterWeekCardTwo {
+                display: flex;
+
+                .ParameterWeekTwocard {
+                    margin-left: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    border: 2px solid #716F6F;
+                    padding: 0;
+                    align-items: center;
+                    border-radius: 5px;
+
+                    .ParameterWeekTwoTitle {
+                        padding: 10px;
+                        padding-bottom: 5px;
+                        font-size: 12px;
+                    }
+
+                    .ParameterWeekTwoValue {
+                        background-color: #053E5E;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 0px;
+                        padding-bottom: 5px;
+                        padding-top: 5px;
+                        color: white;
+                        font-weight: 600;
+                    }
+
+                    .ParameterWeekTwoTitl {
+                        padding: 10px;
+                        padding-bottom: 5px;
+                        font-size: 12px;
+                    }
+
+                    .ParameterWeekTwoValu {
+                        background-color: gray;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 0px;
+                        padding-bottom: 5px;
+                        padding-top: 5px;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+        }
+    }
+
+
+}

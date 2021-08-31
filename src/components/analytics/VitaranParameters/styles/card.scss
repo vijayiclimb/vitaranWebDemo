@@ -1,0 +1,326 @@
+.cardWrapper{
+    display: flex;
+    flex-direction: row;
+    // margin-left: 10px;
+
+
+    .one{
+        flex:1;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-left: 15px;
+        -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75); 
+        height:20vh;
+        padding:5px;
+
+        .onesubOne{
+            flex:2;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            padding-left:15px;
+
+            .OrdersCountContainer{
+                flex:2;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                background-color: #F0F0F0;
+
+                .OrdersCountLabel{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+
+            .OrdersTitleContainer{
+                flex:1;
+                margin-top: 10px;
+                background-color: #053E5E;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+
+
+                .OrdersTitleLabel{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .onesubTwo{
+            flex:1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0px;
+            margin-right: 15px;
+
+            .IncreaseContainer{
+                flex:2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #053E5E;
+                border-radius: 100%;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                justify-content: center;
+
+                .increaseIcon{
+                    color:white;
+                }
+
+            }
+
+            .PercentageInfo{
+                flex:1;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .PercentageCount{
+                    
+                    font-weight: 700;
+                    font-size: 30px;
+                    color:#053E5E;
+                }
+
+                .PercentageTitle{
+                    margin-top: -15px;
+                    font-weight: 500;
+                    color:#053E5E;
+                }
+            }
+        }
+     
+    }
+
+    .two{
+        flex:1;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-left: 15px;
+        -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75); 
+        height:20vh;
+        padding:5px;
+
+        .twosubone{
+            flex:2;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            padding-left:15px;
+            .twoOrdersCountContainer{
+                flex:2;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                background-color: #F0F0F0;
+
+                .twoOrdersCountLabel{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+
+            .twoOrdersTitleContainer{
+                flex:1;
+                margin-top: 10px;
+                background-color: #053E5E;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+
+
+                .twoOrdersTitleLabel{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+            }
+
+        }
+
+        .twosubTwo{
+            flex:1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0px;
+            margin-right: 15px;
+
+            .twoIncreaseContainer{
+                flex:2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #053E5E;
+                border-radius: 100%;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                justify-content: center;
+
+                .twoincreaseIcon{
+                    color:white;
+                }
+
+            }
+
+            .twoPercentageInfo{
+                flex:1;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .twoPercentageCount{
+                    
+                    font-weight: 700;
+                    font-size: 30px;
+                    color:#053E5E;
+                }
+
+                .twoPercentageTitle{
+                    margin-top: -15px;
+                    font-weight: 500;
+                    color:#053E5E;
+                }
+            }
+
+        }
+     
+    }
+    .three{
+        flex:1;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        margin-left: 15px;
+        -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75); 
+        height:20vh;
+        padding:5px;
+        .threesubone{
+            flex:2;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            padding-left:15px;
+            .threeOrdersCountContainer{
+                flex:2;
+                display: flex;
+                align-items: flex-end;
+                justify-content: center;
+                background-color: #F0F0F0;
+
+                .threeOrdersCountLabel{
+                    font-size: 30px;
+                    font-weight: 700;
+                }
+            }
+
+            .threeOrdersTitleContainer{
+                flex:1;
+                margin-top: 10px;
+                background-color: #053E5E;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+
+
+                .threeOrdersTitleLabel{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 700;
+
+                    .threeOrdersSubTitleLabel{
+                        font-size: 12px;
+                        margin-top: 5px;
+                        
+                    }
+                }
+            }
+
+        }
+
+        .threesubTwo{
+            flex:1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0px;
+            margin-right: 15px;
+
+            .threeIncreaseContainer{
+                flex:2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #053E5E;
+                border-radius: 100%;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                justify-content: center;
+
+                .threeincreaseIcon{
+                    color:white;
+                }
+
+            }
+
+            .threePercentageInfo{
+                flex:1;
+                padding: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .threePercentageCount{
+                    
+                    font-weight: 700;
+                    font-size: 30px;
+                    color:#053E5E;
+                }
+
+                .threePercentageTitle{
+                    margin-top: -15px;
+                    font-weight: 500;
+                    color:#053E5E;
+                }
+            }
+
+        }
+    }
+}

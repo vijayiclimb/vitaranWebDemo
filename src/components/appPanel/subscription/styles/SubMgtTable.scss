@@ -1,0 +1,30 @@
+.TableContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+
+    .MuiTableRow-head-root,
+    .MuiTableRow-head{
+        color: white !important;
+    }
+
+
+
+    .SubMgtTableButton{
+        width:80px;
+        height:35px;
+        border:2px solid #DC1D13;
+        outline:none;
+        background-color: white;
+        color:#DC1D13;
+        border-radius: 3px;
+
+        &:hover{
+            background-color: red;
+            color:white;
+            border:none;
+            border:2px solid #DC1D13;
+        }
+    }
+}

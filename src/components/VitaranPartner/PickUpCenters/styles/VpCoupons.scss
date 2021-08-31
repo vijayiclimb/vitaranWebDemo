@@ -1,0 +1,600 @@
+.VpCouponsContainer {
+    padding: 10px;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .VpCouponsContainerTop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 15px;
+
+        .VpCouponsContainerTopOne {
+            flex: 1.2;
+        }
+
+        .VpCouponsContainerTopTwo {
+            flex: 2;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+
+    .VpCouponsContainerBottom {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        gap: 20px;
+
+        .VpCouponsContainerBottomOne {
+            flex: 1;
+            background-color: #F0F0F0;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+
+            .VpCouponsContainerBottomOneStatusContainer {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 0px;
+
+                .VpCouponsContainerBottomOneStatusTitle {
+                    font-weight: 600;
+                }
+
+                .VpCouponsContainerBottomOneStatusValue {
+                    color: #053E5E;
+                    font-weight: 600;
+                }
+
+                .VpCouponsContainerBottomOneStatusValueCompleted{
+                    color: #DC1D13;
+                    font-weight: 600;
+                }
+            }
+
+            .VpCouponsContainerBottomOneDateContainer {
+                padding: 15px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .VpCouponsContainerBottomOneDateContainerOne {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpCouponsContainerBottomOneDateContainerOneTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpCouponsContainerBottomOneDateContainerOneValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+
+                .VpCouponsContainerBottomOneDateContainerTwo {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpCouponsContainerBottomOneDateContainerTwoTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpCouponsContainerBottomOneDateContainerTwoValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .VpCouponsContainerBottomOneReasonContainerTwo {
+                padding: 10px 10px;
+            }
+
+            .VpCouponsContainerBottomOneButtonContainer {
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+
+        
+        .VpCouponsContainerBottomOneCompleted {
+            flex: 1;
+            background-color: #F0F0F0;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            min-height: 200px;
+            max-height: 200px;
+
+            .VpCouponsContainerBottomOneStatusContainer {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 0px;
+
+                .VpCouponsContainerBottomOneStatusTitle {
+                    font-weight: 600;
+                }
+
+                .VpCouponsContainerBottomOneStatusValue {
+                    color: #053E5E;
+                    font-weight: 600;
+                }
+
+                .VpCouponsContainerBottomOneStatusValueCompleted{
+                    color: #DC1D13;
+                    font-weight: 600;
+                }
+            }
+
+            .VpCouponsContainerBottomOneDateContainer {
+                padding: 15px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .VpCouponsContainerBottomOneDateContainerOne {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpCouponsContainerBottomOneDateContainerOneTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpCouponsContainerBottomOneDateContainerOneValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+
+                .VpCouponsContainerBottomOneDateContainerTwo {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpCouponsContainerBottomOneDateContainerTwoTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpCouponsContainerBottomOneDateContainerTwoValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .VpCouponsContainerBottomOneReasonContainerTwo {
+                padding: 10px 10px;
+            }
+
+            .VpCouponsContainerBottomOneButtonContainer {
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .VpCouponsContainerBottomOneCancelled {
+            flex: 1;
+            background-color: #F0F0F0;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            min-height: 250px;
+            max-height: 250px;
+
+            .VpCouponsContainerBottomOneReasonContainerTwoCancelled{
+                // margin-top: -10px;
+                padding: 5px 10px;
+                margin-bottom: 10px;
+            }
+
+            .VpCouponsContainerBottomOneStatusContainer {
+                display: flex;
+                justify-content: space-between;
+                padding: 15px 0px;
+
+                .VpCouponsContainerBottomOneStatusTitle {
+                    font-weight: 600;
+                }
+
+                .VpCouponsContainerBottomOneStatusValue {
+                    color: #053E5E;
+                    font-weight: 600;
+                }
+
+                .VpCouponsContainerBottomOneStatusValueCancelled{
+                    color: #716F6F;
+                    font-weight: 600;
+                }
+            }
+
+            .VpCouponsContainerBottomOneDateContainer {
+                padding: 15px;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                .VpCouponsContainerBottomOneDateContainerOne {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpCouponsContainerBottomOneDateContainerOneTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpCouponsContainerBottomOneDateContainerOneValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+
+                .VpCouponsContainerBottomOneDateContainerTwo {
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 20px;
+
+                    .VpCouponsContainerBottomOneDateContainerTwoTitle {
+                        font-weight: 600;
+                    }
+
+                    .VpCouponsContainerBottomOneDateContainerTwoValue {
+                        color: red;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .VpCouponsContainerBottomOneReasonContainerTwoCancelled {
+                padding: -10px 10px;
+            }
+
+            .VpCouponsContainerBottomOneButtonContainer {
+                padding: 10px 20px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .VpCouponsContainerBottomTwo {
+            flex: 2;
+            background-color: #F0F0F0;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border-radius: 5px;
+
+            .VpCouponsContainerBottomTwoTitleContainer {
+                width: 100%;
+
+                .VpCouponsContainerBottomTwoTitle {
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+
+            .VpCouponsContainerBottomTwoDetailsContainer {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+
+                .VpCouponsContainerBottomTwoDetailsListContainer {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+                    padding: 3px 0px;
+
+                    .VpCouponsContainerBottomTwoDetailsListTitleContainer {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        .VpCouponsContainerBottomTwoDetailsListTitle {
+                            font-weight: 600;
+                            font-size: 14px;
+
+
+                        }
+
+                    }
+
+                    .VpCouponsContainerBottomTwoDetailsListValueContainer {
+                        flex: 5;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+
+                        .VpCouponsContainerBottomTwoDetailsListValue {
+                            font-size: 14px;
+
+                        }
+
+                    }
+                }
+            }
+
+            .VpCouponsContainerBottomTwoSkuDetailsContainer {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                padding: 10px;
+                gap: 10px;
+
+                .VpCouponsContainerBottomTwoSkuImageContainer {
+                    flex: 1;
+                    overflow: hidden;
+                    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    border-radius: 5px;
+                   
+                    height: 90px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit:contain;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpCouponsContainerBottomTwoSkuIdContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpCouponsContainerBottomTwoSkuIdContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpCouponsContainerBottomTwoSkuIdContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpCouponsContainerBottomTwoSkuNameContainer {
+                    flex: 2;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+
+                    
+                    .VpCouponsContainerBottomTwoSkuNameContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpCouponsContainerBottomTwoSkuNameContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpCouponsContainerBottomTwoSkuQuantityContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpCouponsContainerBottomTwoSkuQuantityContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpCouponsContainerBottomTwoSkuQuantityContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpCouponsContainerBottomTwoSkuMrpContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpCouponsContainerBottomTwoSkuMrpContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpCouponsContainerBottomTwoSkuMrpContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+
+                .VpCouponsContainerBottomTwoSkuTotalPriceContainer {
+                    flex: 1;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+
+                    .VpCouponsContainerBottomTwoSkuTotalPriceContainerOne {
+                        color: black;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        // height: 100%;
+
+                        label{
+                            font-weight: 600;
+                        }
+                       
+                    }
+
+                    .VpCouponsContainerBottomTwoSkuTotalPriceContainerTwo {
+                        background-color: white;
+                        padding: 0px;
+                        margin: 0px;
+                        flex:1;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                    }
+                }
+            }
+
+            .VpCouponsContainerLastContainer{
+                padding:5px 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .VpCouponsContainerLastTitleContainer{
+                    flex:1;
+
+                    .VpCouponsContainerLastTitle{
+                      font-weight: 600;
+                      font-size: 14px;
+                    }
+                }
+
+                .VpCouponsContainerLastValueContainer{
+                    flex:7;
+
+                    .VpCouponsContainerLastValue{
+                        font-weight: 600;
+                      font-size: 14px;
+                      color:#053E5E;
+                    }
+
+                }
+            }
+        }
+    }
+}

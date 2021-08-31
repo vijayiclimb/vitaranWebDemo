@@ -1,0 +1,32 @@
+.DailyBidsgraphWrapper{
+    background-color: white;
+   
+   
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75); 
+        padding:15px;
+
+
+        .DailyBidsgraphTitle{
+            font-weight: 700;
+            margin-left: 20px;
+        }
+
+              .DailyBidsgraphContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+          
+           
+
+
+            .DailyBidsGraph{
+                background-color: white;
+            }
+        }
+        
+
+      
+}

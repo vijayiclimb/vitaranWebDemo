@@ -1,0 +1,383 @@
+.ProductMgtdisplayContainerAdd {
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+    .ProductMgtfirstAdd {
+        display: flex;
+        flex-direction: row;
+
+        .ProductMgtimageContainerAdd {
+            flex: 1;
+            padding: 15px;
+            margin-left: 20px;
+
+            .ProductMgtimageWrapperAdd {
+                display: flex;
+                height: 250px;
+                width: 250px;
+                position: relative;
+                border-radius: 5px;
+                // border: 2px solid red;
+                // object-fit:cover;
+
+
+                .image-upload {
+                    position: absolute;
+                    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                    padding: 5px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                    outline: none;
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: white;
+                    border: none;
+                    top: 5%;
+                    left: 83%;
+                }
+
+                .image-upload>input {
+                    display: none;
+                    cursor: pointer;
+                }
+
+                img {
+                    position: relative;
+                    flex: 1;
+                    top: 0;
+                    left: 0;
+                    object-fit: initial;
+                    border-radius: 5px;
+                }
+            }
+
+
+
+        }
+
+        .ProductMgtdetailAdd {
+            flex: 3;
+            padding-left: 40px;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .ProductMgtSkuNameContainerAdd {
+                display: flex;
+                flex-direction: row;
+
+                .ProductMgtskuNameAddWrapper {
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-right: 20px;
+                    align-items: center;
+
+                    .ProductMgtskuNameAdd {
+
+                        font-weight: 600;
+                    }
+                }
+
+
+
+                .TextAddSkuNameProductMgt {
+                    flex: 4;
+
+                }
+            }
+
+            .ProductMgtratingAddContainer {
+                display: flex;
+                flex-direction: row;
+                margin-top: 5px;
+                padding: 5px;
+
+                .ProductMgtratingAddTitleWrapper {
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    margin-right: 20px;
+
+                    .ProductMgtratingAddTitle {
+                        font-weight: 600;
+                    }
+                }
+
+                .ProductMgtratingAdd {
+                    flex: 4;
+                }
+            }
+
+
+            .ProductMgtpriceContainerAdd {
+                display: flex;
+                padding: 5px;
+
+
+                .ProductMgtskuPriceTitleAddWrapper {
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    margin-right: 20px;
+
+                    .ProductMgtskuPriceTitleAdd {
+
+
+                        font-size: 16px;
+
+                        font-weight: 600;
+                    }
+                }
+
+
+
+                .TextAddPriceProductMgt {
+                    flex: 4;
+                }
+
+            }
+
+            .ProductMgtDescriptionContainerAdd {
+                display: flex;
+                padding: 10px;
+                margin-top: 5px;
+
+                .ProductMgtskuDescriptionTitleAddWrapper {
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    margin-right: 20px;
+
+                    .ProductMgtskuDescriptionTitleAdd {
+
+                        font-weight: 600;
+                    }
+                }
+
+
+
+                .TextAddDescriptionProductMgt {
+                    flex: 4;
+
+                }
+
+            }
+
+            .ProductMgtIncentiveContainerAdd {
+                display: flex;
+                padding: 10px;
+                margin-top: 5px;
+
+
+                .ProductMgtskuIncentiveTitleAddWrapper {
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    margin-right: 20px;
+
+                    .ProductMgtskuIncentiveTitleAdd {
+
+                        font-weight: 600;
+                    }
+                }
+
+
+
+                .TextAddIncentiveProductMgt {
+                    flex: 4;
+
+                }
+
+            }
+
+
+
+            .ProductMgtincentiveAdd {
+                display: flex;
+                padding: 5px;
+
+
+                .ProductMgtincentiveTitleAdd {
+                    flex: 1.8;
+                    display: flex;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                .ProductMgtincentiveValueAdd {
+                    flex: 6;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: gray;
+                    justify-content: flex-start;
+
+                }
+            }
+
+        }
+
+        .ProductMgteditContainerAdd {
+            padding: 10px;
+
+            .ProductMgteditAdd {
+                -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+                padding: 10px;
+                border-radius: 50%;
+                cursor: pointer;
+                outline: none;
+                background-color: white;
+                border: none
+            }
+        }
+    }
+
+    .ProductMgtsecondAdd {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .ProductMgtpopularContainerAdd {
+            display: flex;
+            flex-direction: row;
+            margin-left: 30px;
+
+        }
+
+        .ProductMgtbottomContainerAdd {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            margin-top: 5px;
+
+            .ProductMgtpropDetailsAdd {
+                flex: 1;
+                padding: 10px;
+
+                .ProductMgtpropDetailsListAdd {
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 50px;
+                    margin-top: 10px;
+
+                    .ProductMgtpropDetailsTitleAddWrapper{
+                        flex: 2;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        margin-right: 20px;
+                      .ProductMgtpropDetailsTitleAdd {
+                        
+                        font-weight: 600;
+                    }  
+                    }
+
+                    .ProductMgtpropDetailsValueAddWrapper{
+                        flex:4;
+
+                        .ProductMgtpropDetailsValueAdd{
+                            font-weight: 400;
+                        }
+                    }
+
+                    .ProductMgtpropDetailsValueAdd {
+                        flex: 4;
+                    }
+
+                    .TextAddCategoryProductMgt {
+                        flex: 4;
+
+                    }
+
+
+
+                    .TextAddCompanyProductMgt {
+                        flex: 4;
+
+                    }
+
+
+
+                    .TextAddBrandSkuProductMgt {
+                        flex: 4;
+
+                    }
+
+
+
+
+
+                }
+
+
+            }
+
+            .ProductMgtpriceDetailsAdd {
+                flex: 1;
+                padding: 10px;
+
+                .ProductMgtpriceDetailsListAdd {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 10px;
+
+                    .ProductMgtpriceDetailsTitleAddWrapper{
+                        flex: 1;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        margin-right: 20px;
+                            .ProductMgtpriceDetailsTitleAdd {
+                        
+                        font-weight: 600;
+                    }
+                    }
+
+                
+
+                    .TextAddRetailerProductMgt {
+                        flex: 4;
+
+                    }
+
+                    .TextAddRiderProductMgt {
+                        flex: 4;
+
+                    }
+
+                    .TextAddWholesellerProductMgt {
+                        flex: 4;
+
+                    }
+
+                    .TextAddDistributorProductMgt {
+                        flex: 4;
+
+                    }
+                }
+
+            }
+        }
+    }
+}

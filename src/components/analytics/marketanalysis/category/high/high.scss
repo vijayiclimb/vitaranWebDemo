@@ -1,0 +1,327 @@
+.HighWrapperCategory{
+    
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .labelContainerCategory{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-top: 10px;
+
+         .HighWrapperTitleCategory{
+            width: 100%;
+        font-weight: 700;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .HighWrapperSubTitleCategory{
+        font-weight: 500;
+        margin-left: 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+    }
+
+    .TopCategory{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+
+        .TopOneCategory{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            padding:10px;
+            -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+            box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+
+            .TopTitleWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .TopTitleCategory{
+                    color:#053E5E;
+                    font-weight: 700;
+                    font-size: 16px;
+                    text-transform: uppercase;
+
+                }
+            }
+
+            .TopImageCategory{
+                display: flex;
+                flex-wrap: wrap;
+                overflow: hidden;
+                padding:10px;
+
+                .ImageContainerCategory{
+                
+                    display: flex;
+                    
+                    position: relative;
+                    border-radius: 10px;
+                    width: 100%;   
+                    height: 18vh;
+                    cursor: pointer;
+                    overflow: hidden;
+                    
+                    img{
+                        flex-basis: 100%;
+                        width: 100%;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+            .TopCategoryTitleWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                height:12vh;
+
+                .TopCategoryTitleCategory{
+                    color:#053E5E;
+                    font-weight: 700;
+                    font-size: 12px;
+                    text-transform: uppercase;
+
+                }
+            }
+
+            .buttonWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:10px;
+
+                #CategoryAnalyticsHighButtonOneCategory{
+                    padding:8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    font-size: 12px;
+                    border:2px solid #DC1D13;
+                    color:#DC1D13;
+                    background-color: transparent;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    
+
+
+                    &:hover,&:focus,&:active{
+                        color: white;
+                        background-color: #DC1D13;
+                    }
+                }
+            }
+        }
+        .TopTwoCategory{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            padding:10px;
+            margin-left: 10px;
+            -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+            box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+
+            .TopTitleWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .TopTitleCategory{
+                    color:#053E5E;
+                    font-weight: 700;
+                    font-size: 16px;
+                    text-transform: uppercase;
+
+                }
+            }
+
+            .TopImageCategory{
+                display: flex;
+                flex-wrap: wrap;
+                overflow: hidden;
+                padding:10px;
+
+                .ImageContainerCategory{
+                
+                    display: flex;
+                    
+                    position: relative;
+                    border-radius: 10px;
+                    width: 100%;   
+                    height: 18vh;
+                    cursor: pointer;
+                    overflow: hidden;
+                    
+                    img{
+                        flex-basis: 100%;
+                        width: 100%;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+            .TopCategoryTitleWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:10px;
+                height:12vh;
+           
+
+                .TopCategoryTitleCategory{
+                    color:#053E5E;
+                    font-weight: 700;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                    margin-right: 10px;
+
+                }
+            }
+
+            .buttonWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:10px;
+
+                #CategoryAnalyticsHighButtonTwoCategory{
+                    padding:8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    font-size: 12px;
+                    border:2px solid #DC1D13;
+                    color:#DC1D13;
+                    background-color: transparent;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    
+
+
+                    &:hover,&:focus,&:active{
+                        color: white;
+                        background-color: #DC1D13;
+                    }
+                }
+            }
+        }
+        .TopThreeCategory{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            padding:10px;
+            margin-left: 10px;
+            -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+            box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+
+            .TopTitleWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .TopTitleCategory{
+                    color:#053E5E;
+                    font-weight: 700;
+                    font-size: 16px;
+                    text-transform: uppercase;
+
+                }
+            }
+
+            .TopImageCategory{
+                display: flex;
+                flex-wrap: wrap;
+                overflow: hidden;
+                padding:10px;
+
+                .ImageContainerCategory{
+                
+                    display: flex;
+                    
+                    position: relative;
+                    border-radius: 10px;
+                    width: 100%;   
+                    height: 18vh;
+                    cursor: pointer;
+                    overflow: hidden;
+                    
+                    img{
+                        flex-basis: 100%;
+                        width: 100%;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+            .TopCategoryTitleWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top:0px;
+                padding-left: 15px;
+                padding-right: 15px;
+                height:12vh;
+
+                .TopCategoryTitleCategory{
+                    color:#053E5E;
+                    font-weight: 700;
+                    font-size: 12px;
+                    text-transform: uppercase;
+
+                }
+            }
+
+            .buttonWrapperCategory{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding:10px;
+
+                #CategoryAnalyticsHighButtonThreeCategory{
+                    padding:8px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    font-size: 12px;
+                    border:2px solid #DC1D13;
+                    color:#DC1D13;
+                    background-color: transparent;
+                    border-radius: 5px;
+                    font-weight: 600;
+                  
+
+
+                    &:hover,&:focus,&:active{
+                        color: white;
+                        background-color: #DC1D13;
+                    }
+                }
+            }
+        }
+    }
+
+   
+}

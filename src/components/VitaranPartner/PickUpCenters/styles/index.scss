@@ -1,0 +1,91 @@
+.VitaranPartnerPickUpCentersContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .MuiTab-textColorPrimary, .MuiInputLabel-root{
+        color: #000 !important;
+        font-family: 'proxima-nova', sans-serif;
+      }
+
+
+      
+    .MuiInputBase-input{
+      color: #000 !important;
+      font-size: 14px;
+    }
+
+
+    .VitaranPartnerPickUpCentersTop {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 20px;
+        padding: 10px;
+
+
+        .VitaranPartnerPickUpCenterslabel{
+               color:red;
+        }
+
+        .VitaranPartnerPickUpCentersTopOne {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            border-radius: 5px;
+
+            .VitaranPartnerPickUpCentersTopOneTitle {
+                font-size: 18px;
+                font-weight: 600;
+               
+            }
+        }
+
+        .VitaranPartnerPickUpCentersTopTwo {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            border-radius: 5px;
+
+            .VitaranPartnerPickUpCentersTopTwoTitle {
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+
+        .VitaranPartnerPickUpCentersTopThree {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+            border-radius: 5px;
+
+            .VitaranPartnerPickUpCentersTopThreeTitle {
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .VitaranPartnerPickUpCentersBottom{
+        margin-top: -20px;
+        padding:10px;
+    }
+}

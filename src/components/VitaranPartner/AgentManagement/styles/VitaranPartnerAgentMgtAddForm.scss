@@ -1,0 +1,430 @@
+.VitaranPartnerAgentMgtAddFormContainer {
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+    .VitaranPartnerAgentMgtAddFormContainerOne {
+        flex: 2.8;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .VitaranPartnerAgentMgtAddFormContainerOneTitleContainer {
+            padding: 0px 15px;
+
+            .VitaranPartnerAgentMgtAddFormContainerOneTitle {
+                font-weight: 600;
+                font-size: 14px;
+            }
+        }
+
+
+
+        .VitaranPartnerAgentMgtAddFormContainerOneNameContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtAddFormContainerOneNameWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneNameFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtAddFormContainerOneNameWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneNameSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+
+
+        
+        .VitaranPartnerAgentMgtAddFormContainerOneCityContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtAddFormContainerOneCityWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneCityFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtAddFormContainerOneCityWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneCitySecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+        
+        
+        .VitaranPartnerAgentMgtAddFormContainerOneCountryContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtAddFormContainerOneCountryWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneCountryFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtAddFormContainerOneCountryWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneCountrySecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+
+        .VitaranPartnerAgentMgtAddFormContainerOneEduContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtAddFormContainerOneEduWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneEduFirst {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .VitaranPartnerAgentMgtAddFormContainerOneEduWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding: 5px 15px;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneEduSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        
+
+                    }
+                }
+            }
+
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerOneMobileContainer {
+            display: flex;
+            flex-direction: row;
+
+            .VitaranPartnerAgentMgtAddFormContainerOneMobileWrapperFirst {
+                flex: 1;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding: 5px 15px;
+
+
+                label {
+                 
+                    font-size: 14px;
+                    margin-bottom: 0px;
+                }
+            }
+
+            .VitaranPartnerAgentMgtAddFormContainerOneZoneWrapperSecond {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                padding: 8px 15px;
+                align-items: flex-end;
+
+                .VitaranPartnerAgentMgtAddFormContainerOneZoneSecond {
+                    width: 85%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+
+                    label {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerOneMailContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerOneFirmContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerOneAddressContainer {
+            display: flex;
+            flex-direction: column;
+            padding: 8px 15px;
+
+            label {
+                 
+                font-size: 14px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerOneButtonContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 15px;
+            margin-top: 10px;
+            gap: 10px;
+        }
+    }
+
+    .VitaranPartnerAgentMgtAddFormContainerTwo {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 20px;
+
+        #VitaranPartnerAgentProfAddImg{
+            display: none;
+        }
+
+        
+        .VitaranPartnerAgentAddFormProfImageContainer{
+            padding:10px;
+
+            .VitaranPartnerAgentAddFormProfImage{
+                border: 2px solid #DC1D13;
+                padding: 8px 25px;
+                border-radius: 5px;
+                font-weight: 600;
+                color:#DC1D13;
+                cursor: pointer;
+
+                &:hover{
+                    border: 2px solid #DC1D13;
+                    padding: 8px 25px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    color:white;
+                    cursor: pointer;
+                    background-color: #DC1D13;
+                }
+            }
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerTwoImageContainer{
+            width: 200px;
+            height:200px;
+            border: 2px solid #F0F0F0;
+
+            img{
+                width: 100%;
+                height:100%;
+                object-fit: contain;
+            }
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerTwoButtonContainer{
+            margin-top: 10px;
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+
+
+
+
+
+        .VitaranPartnerAgentMgtAddFormContainerTwoImageContainerTwo{
+            margin-top: 15px;
+            width: 280px;
+            height:150px;
+            border: 2px solid #F0F0F0;
+
+            img{
+                width: 100%;
+                height:100%;
+                object-fit: contain;
+            }
+        }
+
+        .VitaranPartnerAgentMgtAddFormContainerTwoButtonContainerTwo{
+            margin-top: 10px;
+            width: 200px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+    }
+
+
+
+}

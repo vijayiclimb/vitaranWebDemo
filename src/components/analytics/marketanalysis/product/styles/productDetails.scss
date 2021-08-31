@@ -1,0 +1,19 @@
+.detailContainer{
+    margin-top: 20px;
+    display: flex;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    padding: 15px;
+    background-color: white;
+
+    .product_list{
+      flex:2;
+      padding: 20px;
+    }
+
+    .product_detail{
+        flex: 1;
+        padding: 10px;
+    }
+}

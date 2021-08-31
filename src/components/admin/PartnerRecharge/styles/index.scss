@@ -1,0 +1,81 @@
+.PartnerRechargeSmMgtContainer{
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+margin-top: 5px;
+    .PartnerRechargeSmMgtTitleContainer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        .PartnerRechargeSmMgtTitle{
+            font-weight: 600;
+            font-size: 16px;
+        }
+    }
+
+    .PartnerRechargeSmMgtInputTitleContainer{
+        padding: 25px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        gap:20px;
+
+        .PartnerRechargeSmMgtInputTitle{
+            font-size: 14px;
+        }
+    }
+
+
+    .PartnerRechargeSmMgtBottomContainer{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        padding: 25px;
+        gap:30px;
+
+        .PartnerRechargeSmMgtSubBottomContainer{
+            flex:1;
+            display: flex;
+           
+              .PartnerRechargeSmMgtBottomContainerOne{
+           
+            display: flex;
+            flex-direction: column;
+           
+        
+        
+            .PartnerRechargeSmMgtBottomContainerOneValue{
+                font-weight: 600;
+                font-size: 26px;
+                display: flex;
+                flex-direction: row;
+             
+            }
+
+            .PartnerRechargeSmMgtBottomContainerOneTitle{
+                font-size: 14px;
+            }
+        }
+        }
+
+      
+
+        .PartnerRechargeSmMgtBottomContainerTwo{
+            
+            flex:8;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,215 @@
+.containerDetail{
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    background-color: white !important;
+
+    .img_container {
+      
+        display: flex;
+        height: 10vw;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+
+        .product_image {
+            margin-top: 30px;
+            width: 70%;
+        }
+    }
+
+    .product_container {
+        margin-top: 30px;
+        .product_list {
+            padding: 15px;
+
+            .product_item {
+                display: flex;
+                padding: 5px;
+               
+
+               .product_title{
+                  font-weight: 600;
+                  margin-left: 10px;
+               }
+
+               .product_value{
+                margin-left: 10px;
+               }
+            }
+        }
+
+    }
+
+    .weekContainer{
+        background-color: #f2f2f2;
+
+        .weekRetailers{
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+
+            .retail_title{
+                font-weight: 600;
+            }
+
+            .retail_week{
+                display: flex;
+                padding: 10px;
+
+               .week{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                border: 2px solid black;
+                
+                margin-right: 10px;
+                border-radius: 6px;
+                align-items: center;
+                justify-content: center;
+
+                .retail_title{
+                    font-weight: 600;
+                }
+
+
+                .retail_value{
+                    background-color: #053E5E;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    color: white;
+                    font-weight: 600;
+                
+                }
+                .retail{
+                    background-color: gray;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    font-weight: 600;
+                }
+            } 
+            }
+            
+        }
+
+        .weekAverage{
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+
+            .retail_title{
+                font-weight: 600;
+            }
+            .retail_week{
+                display: flex;
+                padding: 10px;
+
+               .week{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                border: 2px solid black;
+                margin-right: 10px;
+                border-radius: 6px;
+                align-items: center;
+                justify-content: center;
+
+                .retail_title{
+                    font-weight: 600;
+                }
+                .retail_value{
+                    background-color: #053E5E;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    color: white;
+                    font-weight: 600;
+                }
+                .retail{
+                    background-color: gray;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    font-weight: 600;
+                }
+            } 
+            }
+            
+        }
+
+        
+        .weekActiveUsers{
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+
+            .retail_title{
+                font-weight: 600;
+            }
+
+            .retail_week{
+                display: flex;
+                padding: 10px;
+
+               .week{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                border: 2px solid black;
+                
+                margin-right: 10px;
+                border-radius: 6px;
+                align-items: center;
+                justify-content: center;
+                
+                .retail_title{
+                    font-weight: 600;
+                }
+
+                .retail_value{
+                    background-color: #053E5E;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    color: white;
+                    font-weight: 600;
+                }
+                .retail{
+                    background-color: gray;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 0px;
+                    padding-bottom: 5px;
+                    padding-top: 5px;
+                    font-weight: 600;
+                }
+            } 
+            }
+            
+        }
+    }
+}

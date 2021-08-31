@@ -1,0 +1,64 @@
+.CategoryWiseRatesGraphSection{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:10px;
+
+    .CategoryWiseRatesWeekGraphgraphWrapper{
+        background-color: #F0F0F0; 
+            padding:15px;
+    
+    
+            .CategoryWiseRatesWeekGraphgraphTitle{
+                font-weight: 700;
+                margin-left: 20px;
+            }
+    
+                  .CategoryWiseRatesWeekrGraphgraphContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+              
+               
+    
+    
+                .CategoryWiseRatesWeekGraphGraph{
+                    background-color: white;
+                }
+            }
+            
+    
+         
+    }
+
+
+    .CategoryDailyRatesDailyGraphgraphWrapper{
+        background-color: #F0F0F0; 
+            padding:15px;
+    margin-top: 15px;
+    
+            .CategoryWiseRatesDailyGraphgraphTitle{
+                font-weight: 700;
+                margin-left: 20px;
+            }
+    
+                  .CategoryDailyRatesWDailyGraphgraphContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+               
+              
+               
+    
+    
+                .CategoryWiseRatesDailyGraph{
+                    background-color: white;
+                }
+            }
+            
+    
+         
+    }
+}

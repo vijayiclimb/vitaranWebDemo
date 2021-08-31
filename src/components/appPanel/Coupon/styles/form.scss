@@ -1,0 +1,256 @@
+.FormWrapper {
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: row;
+
+
+    .updateForm {
+        flex: 1;
+        background-color: white;
+
+
+        align-items: center;
+
+
+
+        .imgContainer {
+            margin-top: 20px;
+            display: flex;
+            position: relative;
+            border-radius: 10px;
+            padding: 10px;
+            height: 25vh;
+
+
+            .UpdateFormImageCouponMgt {
+                flex: 2;
+                display: flex;
+                justify-content: center;
+                margin-left: 15px;
+         
+
+
+
+                img {
+                    height: 25vh;
+                    margin-left: -80px;
+                    border-radius: 10px;
+                }
+            }
+
+            .UpdateFormPickUpCouponMgt {
+                flex: 1;
+
+            }
+
+
+
+
+        }
+
+        .formSection {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px;
+
+            .sectionContainer {
+                display: flex;
+                flex-direction: column;
+
+                .nameSection {
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    margin-left: 30px;
+                   
+                    label{
+                        font-weight: 600;
+                    }
+
+
+                }
+            }
+
+
+
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+
+            .update {
+                border: 2px solid #DC1D13;
+                color: white;
+                background-color: #DC1D13;
+                outline: none;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-weight: 600;
+                border-radius: 5px;
+                margin-right: 10px;
+
+                &:hover {
+                    color: #DC1D13;
+                    background-color: white;
+                }
+            }
+
+            .remove {
+                border: 2px solid #DC1D13;
+                color: #DC1D13;
+                background-color: transparent;
+                outline: none;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-weight: 600;
+                border-radius: 5px;
+                margin-right: 10px;
+
+                &:hover {
+                    color: white;
+                    background-color: #DC1D13;
+                }
+            }
+        }
+    }
+
+    .addForm {
+        flex: 1;
+        background-color: white;
+        margin-left: 20px;
+        padding: 10px;
+        align-items: center;
+        justify-content: flex-end;
+
+
+
+        .imgContainer {
+            margin-top: 20px;
+            display: flex;
+            position: relative;
+            border-radius: 10px;
+            padding: 10px;
+            height: 25vh;
+
+
+            .AddFormImageCouponMgt {
+                flex: 2;
+                display: flex;
+                justify-content: center;
+                margin-left: -10px;
+
+
+
+                img {
+                    height: 25vh;
+                    border-radius: 10px;
+                }
+            }
+
+            .AddFormPickUpCouponMgt {
+                flex: 1;
+
+            }
+
+
+
+
+        }
+
+        .formSection {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 10px;
+
+            .sectionContainer {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+
+                .nameSection {
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    margin-left: 30px;
+
+                    // .nameSectionLabell {
+                    //     display: flex;
+                        
+                    //     max-width: 200px;
+                    //     min-width: 100px;
+                    // }
+
+                    .nameSectionLabel {
+                        flex:1;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        
+
+                        .search{
+                            margin-left: -10px;
+                        }
+
+                        label {
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            font-weight: 600;
+                            min-width: 60px;
+                        }
+                    }
+
+                    .textfield{
+                        flex:3;
+                    }
+
+
+
+
+                }
+            }
+
+
+
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+
+            button {
+                border: 2px solid #DC1D13;
+                color: #DC1D13;
+                background-color: transparent;
+                outline: none;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-weight: 600;
+                border-radius: 5px;
+                margin-right: 10px;
+
+                &:hover {
+                    color: white;
+                    background-color: #DC1D13;
+                }
+            }
+        }
+    }
+}

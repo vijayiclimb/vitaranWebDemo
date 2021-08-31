@@ -1,0 +1,50 @@
+.CategoryWiseRatesWrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 15px;
+    padding:10px;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+
+    .One{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100%;
+
+        .OneTitle{
+            font-weight: 700;
+        }
+
+
+        .MuiTab-textColorPrimary,
+        .MuiInputLabel-root {
+            color: #000 !important;
+    
+        }
+
+    }
+
+
+
+
+    .CategoryWiseRatesContainer{
+    
+    display: flex;
+    flex-direction: row;
+
+    .CategoryWiseRatesContainerOne{
+        flex:1;
+    }
+
+    .CategoryWiseRatesContainerTwo{
+        flex:1;
+    }
+}
+}
+
+
+

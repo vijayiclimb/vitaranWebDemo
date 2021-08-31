@@ -1,0 +1,32 @@
+.WeeklyOrdergraphWrapper{
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+        box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75); 
+        padding:15px;
+
+
+        .WeeklyOrdergraphTitle{
+            font-weight: 700;
+            margin-left: 20px;
+        }
+
+              .WeeklyOrdergraphContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+          
+            
+
+
+            .WeeklyOrderGraph{
+                background-color: white;
+            }
+        }
+        
+
+      
+}

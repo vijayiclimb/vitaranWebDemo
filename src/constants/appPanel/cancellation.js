@@ -1,0 +1,4 @@
+export const GETBIDDERREASON="GET_BIDDER_REASON";
+export const GETORDERREASON="GET_ORDER_REASON";
+export const GETSUCCESS="SUCCESS";
+export const GETERROR="ERROR";

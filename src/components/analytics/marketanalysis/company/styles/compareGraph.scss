@@ -1,0 +1,33 @@
+.CompareGraphSection{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    
+
+    .CompareWeekGraphgraphWrapper{
+        background-color: #F0F0F0; 
+      
+    
+    
+            .CompareWeekGraphgraphTitle{
+                font-weight: 700;
+                margin-left: 20px;
+            }
+    
+                  .CompareWeekrGraphgraphContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               
+              
+               
+    
+    
+                .CompareWeekGraphGraph{
+                    background-color: white;
+                }
+            }
+            
+    
+        }
+    }

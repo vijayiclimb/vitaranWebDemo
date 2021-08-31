@@ -1,0 +1,140 @@
+.BasketWrapper {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+
+    .BasketHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .BasketTitle {
+            font-weight: 600;
+            font-size: 18px;
+            padding: 5px;
+        }
+
+        button{
+            border:2px solid #DC1D13;
+            color:#DC1D13;
+            background-color: transparent;
+            outline:none;
+            padding-left:25px;
+            padding-right:25px;
+            padding-top:5px;
+            padding-bottom:5px;
+            font-weight: 600;
+            border-radius: 5px;
+            margin-right: 10px;
+
+            &:hover{
+                color:white;
+                background-color:#DC1D13;
+            }
+        }
+    }
+
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+
+        .CardImageCouponBasket {
+            margin-top: 0px;
+            margin-left: 20px;
+            display: flex;
+            position: relative;
+            border-radius: 10px;
+            height: 22vh;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            background:#f2f2f2;
+            
+
+            img {
+                object-fit: contain;
+                cursor: pointer;
+            }
+        }
+
+        .CardBorderCouponBasket {
+            border: 5px solid rgba(220, 29, 19, 0.2);
+            background:radial-gradient(rgba(
+                145, 146, 122, 0.62), rgba(217, 91, 132, 0.58));       border: 5px solid rgba(220, 29, 19, 0.2);
+
+        }
+
+        .idSection {
+            display: flex;
+            margin-left: 20px;
+            margin-top: 10px;
+            justify-content: flex-start;
+            align-items: center;
+
+            .idTitle {
+                font-weight: 600;
+                font-size: 16px;
+            }
+
+            .idValue {
+                font-weight: 600;
+                margin-left: 5px;
+
+            }
+        }
+
+        .priceSection {
+            display: flex;
+            margin-left: 20px;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 30px;
+
+            .price{
+                color: #053E5E;
+                font-weight: 600;
+                font-size: 18px;
+
+            }
+
+            .quantity{
+                font-weight: 600;
+                font-size: 18px;
+                
+              
+
+                .quantityValue{
+                    color: #053E5E;
+                    font-size: 18px;
+              
+                }
+            }
+        }
+
+        .CoinReedemSection{
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            align-items: center;
+            
+
+            label{
+                color: #716F6F;
+                // display: flex;
+                // flex-direction: row;
+                // align-items: center;
+
+
+                .CoinReedemSectionCoins{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

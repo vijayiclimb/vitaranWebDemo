@@ -1,0 +1,27 @@
+.VitaranPartnerTransactionSummaryDetailTableContainer{
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    border-radius: 5px;
+   
+    padding: 10px;
+
+    .VitaranPartnerTransactionSummaryDetailTableContainerTitle{
+        padding: 10px;
+
+        .label{
+            font-size: 14px;
+        }
+    }
+
+
+    .VitaranPartnerTransactionSummaryDetailTableLabel{
+        background-color: #F0F0F0;
+        padding: 6px 15px;
+        color: #DC1D13;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    
+}

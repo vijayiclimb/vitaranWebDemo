@@ -1,0 +1,124 @@
+
+
+
+.CouponRulesContainer {
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+
+
+    .CouponRulesContainerTitle {
+        font-weight: 600;
+        
+    }
+
+    .CouponRulesSection{
+        display: flex;
+        flex-direction: row;
+
+        .CouponRulesSectionOne{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .CouponRulesSectionOneTitleContainer{
+                display: flex;
+                flex-direction: row;
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+
+
+                .CouponRulesSectionOneTitle{
+                   flex:0.2;
+                    border: 2px solid #716F6F;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-bottom-left-radius: 5px;
+                    border-top-left-radius: 5px;
+                    padding: 2px;
+
+                    .CouponRulesSectionOneTitleSub{
+                        margin-left: 2px;
+                        margin-bottom: 0px;
+                        margin-top: 0px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color:#F0F0F0;
+                        padding-left: 4px;
+                        padding-right: 4px;
+                        border-radius:5px;
+                        color: black;
+                    }
+
+                }
+
+                .CouponRulesSectionOneInputContainer{
+                    flex:0.5;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 2px solid #716F6F;
+                    border-left: 0px;
+                    border-bottom-right-radius: 5px;
+                    border-top-right-radius: 5px;
+                    padding: 2px;
+
+                    input{
+                        margin-left: 5px;
+                        border: none;
+                        outline:none;
+
+                    }
+                }
+
+                .CouponOrderdrop{
+                    margin-left: 10px;
+                }
+
+                .CouponCoindrop{
+                    margin-left: 10px;
+                }
+
+
+                .ButtonOneContainer{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex:0.1;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+
+                
+                .ButtonTwoContainer{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex:0.1;
+                   
+                }
+            }
+        }
+
+
+    }
+
+    .CouponRulesButtonSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+}

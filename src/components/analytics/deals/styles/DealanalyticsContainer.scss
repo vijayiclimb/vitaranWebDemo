@@ -1,0 +1,155 @@
+.analyticsContainer{
+    background-color: white;
+    margin-top: 15px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    width:100%; 
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.75);
+
+    .Title  {
+        font-weight: 800;
+        margin-left: 10px;
+        margin-top:10px;
+    }
+
+    .DataContainer{
+        display: flex;
+        flex-direction: row;
+
+        .DealAnalyticsOne{
+            flex:1.5;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+          
+            
+           
+
+            .OneDataContainer{
+                display: flex;
+                flex-direction: column;
+                width:100%; 
+             
+
+                .OneHead{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                
+
+                    .OneHeadTitle{
+                        flex:3;
+                        display:flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 40px;
+                        font-weight: 700;
+                        
+                    }
+
+                    .OneHeadValue{
+                        margin-left: -50px;
+                        flex:1;
+                        display:flex;
+                        align-items: center;
+                        justify-content: center ;
+                        font-weight: 700;   
+                    }
+                }
+
+                .OneRow{
+                    display: flex;
+                    flex-direction: row; 
+                    margin-left: 20px;
+                    margin-right: 20px;
+
+                    .OneRowTitle{
+                        flex:3;
+                        display:flex;
+                        align-items: center;
+                        justify-content: center ;
+                        background-color: #F0F0F0;
+                        padding:10px;
+                        margin-right: 20px;
+                        margin-left: 80px;
+                        border-radius: 5px;
+                    }
+
+                    .OneRowValue{
+                        flex:1;
+                        display:flex;
+                        align-items: center;
+                        justify-content: center ;
+                        padding:10px;
+                        border:1px solid black;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+
+        .Two{
+            flex:2;
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            overflow: hidden;
+            margin-right: 10px;
+
+            label{
+                font-weight: 700;
+            }
+
+        }
+        .Three{
+            flex:2;
+            display: flex;
+            flex-direction: row;
+      
+
+            .ThreeDataContainer{
+                flex:1;
+                display: flex;
+                flex-direction: column;
+               
+     
+
+                .ThreeRow{
+                    flex:1;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+
+                    .ThreeTitle{
+                        flex:1;
+                        font-weight: 700;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                    }
+                    .ThreeValue{
+                        margin-top: 10px;
+                        flex:1.5;
+                        background-color: #F0F0F0;
+                        display: flex;
+                        align-items: flex-end;
+                        margin-right: 10px;
+                        margin-left: 10px;
+                        padding-bottom: 10px;
+                        padding-left: 10px;
+                        color:#053E5E;
+                        font-size: 25px;
+                        font-weight: 700;
+                        border-radius: 5px;
+                    }
+                }
+            }
+           
+        }
+    }
+}

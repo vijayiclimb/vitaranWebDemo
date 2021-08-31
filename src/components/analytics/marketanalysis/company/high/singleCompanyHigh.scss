@@ -1,0 +1,247 @@
+.CompanyContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+    .details{
+        margin-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding:15px;
+
+        .CompanyDetail{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background-color: #F0F0F0;
+
+            .sideImage{
+                flex:1;
+                display: flex;
+                flex-wrap: wrap;
+                overflow: hidden;
+                padding:15px;
+
+                .ImageContainer{
+                
+                    display: flex;
+                    
+                    position: relative;
+                    border-radius: 10px;
+                    width: 100%;   
+                    height: 15vh;
+                    cursor: pointer;
+                    overflow: hidden;
+                    
+                    img{
+                        flex-basis: 100%;
+                        width: 100%;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+            .sideDetails{
+                flex:1.5;
+                padding: 15px;
+
+                .sideList{
+                    display:flex;
+                    flex-direction: row;
+                    padding:1px;
+
+                    .sideTitle{
+                        font-weight: 700;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                       
+                    }
+
+                    .sideValue{
+                        font-weight: 600;
+                        font-size: 13px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 15px;
+                       
+                    }
+                }
+            }
+        }
+
+        .CompanyTable{
+            width:100%;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            border: 1px solid #716F6F;
+            padding:3px;
+
+
+            .One{
+                flex:2;
+                display: flex;
+                flex-direction: column;
+                
+                
+                
+
+                .OneTitle{
+                    width: auto;
+                    background-color: #053E5E;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color:white;
+                    height: 7vh;
+                    padding:5px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    font-size: 14px;
+                }   
+
+                .OneValue{
+                    background-color:#C4C4C4;
+                    height: 5vh;
+                    padding:5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    
+                }
+            }
+
+            .Two{
+                flex:1;
+                display: flex;
+                flex-direction: column;
+                margin-left: 5px;
+                
+                .TwoTitle{
+                    width: auto;
+                    background-color: #053E5E;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color:white;
+                    height: 7vh;
+                    padding:5px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    font-size: 12px;
+                }   
+
+                .TwoValue{
+                    background-color:#C4C4C4;
+                    height: 5vh;
+                    padding:5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                }
+                
+            }
+
+            .Three{
+                flex:1;
+                display: flex;
+                flex-direction: column;
+                margin-left: 5px;
+                
+                .ThreeTitle{
+                    width: auto;
+                    background-color: #053E5E;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    color:white;
+                    height: 7vh;
+                    padding:5px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    font-size: 12px;
+                }   
+
+                .ThreeValue{
+                    background-color:#C4C4C4;
+                    height: 5vh;
+                    padding:5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                }
+            }
+
+            .Four{
+                flex:1;
+                display: flex;
+                flex-direction: column;
+                margin-left: 5px;
+                
+                .FourTitle{
+                    width: auto;
+                    background-color: #053E5E;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color:white;
+                    height: 7vh;
+                    padding:5px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    font-size: 12px;
+                }   
+
+                .FourValue{
+                    background-color:#C4C4C4;
+                    height: 5vh;
+                    padding:5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                }
+            }
+
+        }
+
+
+    }
+
+    .detailsGraph{
+        width:100%;
+        padding:15px;
+        margin-top: 15px;
+
+        .detailsGraphTitle{
+            font-weight: 700;
+        }
+    }
+}

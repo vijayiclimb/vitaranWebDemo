@@ -1,0 +1,43 @@
+.CardImage{
+margin-top: 20px;
+
+display: flex;
+
+position: relative;
+border-radius: 10px;
+width: 95%;
+height: 170px;
+cursor: pointer;
+overflow: hidden;
+background:#f2f2f2;
+
+img{
+    flex-basis: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+}
+
+.CardBorder{
+    border: 5px solid rgba(220, 29, 19, 0.2);
+    background:radial-gradient(rgba(
+        145, 146, 122, 0.62), rgba(217, 91, 132, 0.58));
+}
+
+.idSection{
+    display: flex;
+    
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+
+    .idTitle{
+        font-weight: 600;
+    }
+
+    .idValue{
+        font-weight: 400;
+        margin-left: 5px;
+        
+    }
+}

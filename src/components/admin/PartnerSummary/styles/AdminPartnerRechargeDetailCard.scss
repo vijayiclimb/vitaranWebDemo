@@ -1,0 +1,130 @@
+.AdminPartnerRechargeDetailCardContainer {
+    flex: 1;
+    padding: 10px;
+
+    .AdminPartnerRechargeDetailCardContainerOne {
+        -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        .AdminPartnerRechargeDetailCardOneImageContainer {
+            width: 410px;
+            height: 180px;
+
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+        }
+
+
+        .AdminPartnerRechargeDetailCardTwoImageContainer {
+            width: 120px;
+            height: 120px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            margin-top: -70px;
+
+
+
+            img {
+                position: relative;
+                width: 110px;
+                height: 110px;
+                border-radius: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .AdminPartnerRechargeDetailCardDetailSection {
+            width: 100%;
+            padding: 15px;
+
+
+            .AdminPartnerRechargeDetailCardDetailList {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 30px;
+                margin-top: 10px;
+
+                .AdminPartnerRechargeDetailCardDetailListOneVV{
+                    flex:1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 15px;
+                    margin-left: 10px;
+
+                    
+                    .AdminPartnerRechargeDetailCardDetailListOneIcon {
+                        background-color: #053E5E;
+                        color: white;
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 100%;
+                    }
+
+                    .AdminPartnerRechargeDetailCardDetailListOneTitle {
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+  
+                }
+
+                .AdminPartnerRechargeDetailCardDetailListOne {
+                    flex:1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 15px;
+                    margin-left: 10px;
+
+
+                    .AdminPartnerRechargeDetailCardDetailListOneIcon {
+                        background-color: #053E5E;
+                        color: white;
+                        width: 30px;
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 100%;
+                    }
+
+                    .AdminPartnerRechargeDetailCardDetailListOneTitle {
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+
+
+                }
+
+                .AdminPartnerRechargeDetailCardDetailListTwo{
+
+                    flex:1.5;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    .AdminPartnerRechargeDetailCardDetailListTwoValue{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

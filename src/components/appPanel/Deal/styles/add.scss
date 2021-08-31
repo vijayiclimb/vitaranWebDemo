@@ -1,0 +1,222 @@
+.UpdateContainerAddDeal {
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.75);
+    background-color: white;
+    padding: 6px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+
+    .oneAddDeal {
+        flex: 2.2;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+
+        .compuAddDeal {
+            flex: 1;
+            display: flex;
+            width: 100%;
+
+            flex-direction: column;
+            padding: 10px;
+
+            .search{
+                margin-top: -30px;
+                margin-right: 10px;
+                margin-left: 20px;
+            }
+
+
+
+
+            .buttonContainerAddDeal {
+                flex: 1;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-top: 0px;
+                margin-bottom: 25px;
+
+
+            }
+
+            .CheckboxContainerAddDeal {}
+
+
+            .DealFormList {
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                padding: 10px;
+
+                .DealFormTitleContainer {
+                    flex: 1;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .DealFormTitle {
+                        margin-right: 15px;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        font-weight: 600;
+                    }
+
+                }
+
+                .textFieldContainer {
+                    flex: 3;
+                }
+
+            }
+
+
+            .DealFormListSubAdd{
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+                padding: 10px;
+                margin-top: -30px;
+
+                .AddDealLeft {
+                    flex: 1.2;
+
+                    .DealFormSubList {
+                        display: flex;
+                        flex-direction: row;
+                        flex: 1;
+                       margin-top: 15px;
+
+                        .DealFormSubTitleContainer {
+                            flex: 1;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+
+                            .DealFormSubTitle {
+                                margin-right: 15px;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: center;
+                                font-weight: 600;
+                            }
+
+                        }
+
+                        .SubtextFieldContainer {
+                            flex: 1.3;
+                        }
+                    }
+
+                }
+
+                .AddDealRight {
+                    flex: 0.9;
+
+                    .DealFormSubList {
+                        display: flex;
+                        flex-direction: row;
+                        flex: 1;
+                        margin-top: 15px;
+
+                        .DealFormSubTitleContainer {
+                            flex: 1;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+
+                            .DealFormSubTitle {
+                                margin-right: 15px;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: center;
+                                font-weight: 600;
+                            }
+
+                        }
+
+                        .SubtextFieldContainer {
+                            flex: 1;
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+
+    .twoAddDeal {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .DealMgtimageContainerUpdate {
+            flex: 1;
+            padding: 15px;
+            margin-left: 20px;
+           
+
+            .DealMgtimageWrapperUpdate {
+                margin-top: 20px;
+                display: flex;
+                width: 300px;
+                height: 175px;
+                position: relative;
+                border-radius: 5px;
+                // border: 2px solid red;
+                // object-fit:cover;
+
+                img{
+                    width: 300px;
+                height: 175px;
+                    border-radius: 5px;
+                }
+            }
+
+            #DealMgtAddImg{
+                display: none;
+            }
+
+            .labelAddDeal{
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .image-uploadAddDealMgt{
+                    cursor: pointer;
+                    background-color: white;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 2px;
+                    width:90px;
+                    height: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 14px;
+                    border:2px solid #d32f2f;
+                    color: #d32f2f;
+                    border-radius: 5px;
+                    margin-top: 10px;
+
+                    &:hover{
+                        background-color: #d32f2f;
+                        border:2px solid #d32f2f;
+                    color: white;
+                    }
+                }
+            }
+        }
+    }
+}
